@@ -1,0 +1,632 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"password",
+				"password"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"Ht",
+				"HTML	Laravel: HTML::attributes()"
+			],
+			[
+				"tab",
+				"tableName"
+			],
+			[
+				"peo",
+				"people"
+			],
+			[
+				"people",
+				"people_id_type"
+			],
+			[
+				"people_id",
+				"people_id_type"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"migrate",
+				"Sublime Artisan Migrate"
+			],
+			[
+				"mig",
+				"Sublime Artisan Migrate"
+			],
+			[
+				"arti",
+				"Sublime Artisan Migrate"
+			],
+			[
+				"migra",
+				"Sublime Artisan Migrate"
+			],
+			[
+				"gener",
+				"Laravel Generate: Migration"
+			],
+			[
+				"generate",
+				"Laravel Generate: Migration"
+			],
+			[
+				"artisan",
+				"Laravel Artisan Command"
+			],
+			[
+				"g",
+				"Laravel Generate: Migration"
+			],
+			[
+				"artisan mi",
+				"Sublime Artisan Migrate"
+			],
+			[
+				"laravel",
+				"Laravel Artisan Command"
+			],
+			[
+				"artisan ",
+				"Sublime Artisan Generate:"
+			],
+			[
+				"migrate:reset",
+				"Sublime Artisan Migrate:Reset"
+			],
+			[
+				"composer",
+				"Composer: Dump Autoload"
+			],
+			[
+				"artis",
+				"Laravel Artisan Command"
+			],
+			[
+				"scaff",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"scaffo",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"resource",
+				"Laravel Generate: Resource"
+			],
+			[
+				"res",
+				"Laravel Generate: Resource"
+			],
+			[
+				"genera",
+				"Laravel Generate: Resource"
+			],
+			[
+				"reso",
+				"Laravel Generate: Resource"
+			],
+			[
+				"key",
+				"Sublime Artisan Key:Generate"
+			],
+			[
+				"arti ke",
+				"Sublime Artisan Key:Generate"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html spe",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"specia",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"preferences",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"art",
+				"Sublime Artisan Migrate"
+			],
+			[
+				"mig:roll",
+				"Sublime Artisan Migrate:Rollback"
+			],
+			[
+				"artisan roll",
+				"Sublime Artisan Migrate:Rollback"
+			],
+			[
+				"artisa",
+				"Laravel Artisan Command"
+			],
+			[
+				"roll",
+				"Sublime Artisan Migrate:Rollback"
+			],
+			[
+				"seed",
+				"Laravel Generate: Seed"
+			],
+			[
+				"c",
+				"Composer: Dump Autoload"
+			],
+			[
+				"migrate:ro",
+				"Sublime Artisan Migrate:Rollback"
+			],
+			[
+				"resour",
+				"Laravel Generate: Resource"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 604.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/gimnasio/app/routes.php",
+		"/var/www/gimnasio/app/models/Usuario.php",
+		"/var/www/gimnasio/app/models/Rol.php",
+		"/var/www/gimnasio/app/controllers/UsuariosController.php",
+		"/var/www/gimnasio/app/database/seeds/RolUsuarioTableSeeder.php",
+		"/var/www/gimnasio/app/controllers/HomeController.php",
+		"/var/www/gimnasio/app/start/global.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php",
+		"/var/www/gimnasio/app/utility/QueryHelper.php",
+		"/var/www/gimnasio/app/utility/facades/QueryHelper.php",
+		"/var/www/gimnasio/app/utility/QueryHelperServiceProvider.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Foundation/Providers/RouteListServiceProvider.php",
+		"/var/www/gimnasio/app/database/seeds/DatabaseSeeder.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+		"/var/www/gimnasio/app/config/app.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php",
+		"/var/www/gimnasio/app/utility/QueryHelperFacade.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Support/Facades/Input.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Html/HtmlServiceProvider.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
+		"/var/www/gimnasio/app/controllers/BaseController.php",
+		"/var/www/gimnasio/app/facades/Qh.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_152501_create_rol_usuario_table.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_120922_create_usuarios_table.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_131853_create_roles_table.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/var/www/gimnasio/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_152103_create_rol_usuario_table.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_152103_rol_usuario.php",
+		"/var/www/gimnasio/app/database/seeds/UsuariosTableSeeder.php",
+		"/var/www/gimnasio/app/database/seeds/RolesTableSeeder.php",
+		"/var/www/old-PP/gimnasio/app/controllers/AdminController.php",
+		"/var/www/old-PP/gimnasio/app/controllers/AuthController.php",
+		"/var/www/old-PP/gimnasio/app/controllers/AuthorizedController.php",
+		"/var/www/old-PP/gimnasio/app/models/User.php",
+		"/var/www/old-PP/laravel/app/database/seeds/RolesTableSeeder.php",
+		"/var/www/old-PP/laravel/app/database/seeds/UsuariosTableSeeder.php",
+		"/var/www/gimnasio/app/config/database.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_131853_create_rols_table.php",
+		"/var/www/gimnasio/app/database/seeds/RolsTableSeeder.php",
+		"/var/www/gimnasio/app/tests/controllers/RolsTest.php",
+		"/var/www/gimnasio/app/views/rols/create.blade.php",
+		"/var/www/gimnasio/app/views/rols/edit.blade.php",
+		"/var/www/gimnasio/app/views/rols/index.blade.php",
+		"/var/www/gimnasio/app/views/rols/show.blade.php",
+		"/var/www/gimnasio/app/controllers/RolsController.php",
+		"/var/www/gimnasio/app/utility/attach.php",
+		"/var/www/gimnasio/app/models/User.php",
+		"/var/www/gimnasio/app/database/migrations/2013_05_13_112855_create_users_table.php",
+		"/var/www/gimnasio/app/views/users/create.blade.php",
+		"/var/www/gimnasio/composer.json",
+		"/var/www/gym3/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/var/www/gym3/app/start/global.php",
+		"/var/www/gym3/app/attach/builders/AttachBuilder.php",
+		"/var/www/gym3/app/attach/helper/AttachHelper.php",
+		"/var/www/gym3/app/attach/interfaces/AttachInterface.php",
+		"/var/www/gym3/app/models/Role.php",
+		"/var/www/gym3/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
+		"/var/www/gym3/gym3.sublime-project",
+		"/var/www/gym3/gym3.sublime-workspace",
+		"/var/www/gym3/vendor/composer/autoload_namespaces.php",
+		"/var/www/gym3/app/interfaces/AttachInterface.php",
+		"/var/www/gym3/app/helper/AttachHelper.php",
+		"/var/www/gym3/app/builders/AttachBuilder.php",
+		"/var/www/gym3/app/tests/AttachedBuilderTest.php",
+		"/var/www/gym3/app/builders/AttachedBuilder.php",
+		"/var/www/gym3/app/views/roles/create.blade.php",
+		"/var/www/gym3/app/controllers/HomeController.php",
+		"/var/www/gym3/app/views/showAttached.blade.php",
+		"/var/www/gym3/app/views/hello.php",
+		"/var/www/gym3/app/views/hello.blade.php",
+		"/var/www/gym3/app/interfaces/AggregatorInterface.php",
+		"/var/www/gym3/app/models/User.php",
+		"/var/www/gym3/app/database/migrations/2013_05_10_035511_create_role_user_table.php",
+		"/var/www/gym3/app/database/migrations/2013_05_10_033608_create_roles_table.php",
+		"/var/www/gym3/app/database/migrations/2013_05_10_033517_create_users_table.php",
+		"/var/www/gym3/app/builders/AuthBuilder.php",
+		"/var/www/gym3/app/interfaces/AuthBuilder.php",
+		"/var/www/gym3/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/var/www/gym3/app/database/migrations/2013_05_10_035511_create_user_role_table.php",
+		"/var/www/gym3/vendor/laravel/framework/src/Illuminate/Support/Fluent.php",
+		"/var/www/gym3/app/database/migrations/2013_05_10_035511_user_role.php",
+		"/var/www/gym3/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Pivot.php",
+		"/var/www/gym3/app/models/Userx.php",
+		"/var/www/gym3/app/config/database.php",
+		"/var/www/gym3/app/config/app.php",
+		"/var/www/gym2/app/routes.php",
+		"/var/www/gym2/app/controllers/EjerciciosController.php",
+		"/var/www/gym2/app/views/ejercicios/attach.blade.php",
+		"/var/www/gym2/app/views/ejercicios/edit.blade.php",
+		"/var/www/gym2/app/views/ejercicios/index.blade.php",
+		"/var/www/gym2/app/views/ejercicios/show.blade.php",
+		"/var/www/gym2/app/views/admin/users/edit.blade.php",
+		"/var/www/gym2/app/database/migrations/2013_05_10_014021_create_ejercicio_maquina_table.php",
+		"/var/www/gym2/app/models/Maquina.php",
+		"/var/www/gym2/app/models/Ejercicio.php",
+		"/var/www/gym2/app/models/Rutina.php",
+		"/var/www/gym2/app/views/admin/admin.blade.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_111455_create_users_table.php",
+		"/var/www/gym2/app/database/migrations/2013_05_10_014021_ejercicio_maquina.php",
+		"/var/www/gimnasio/app/models/Authentication.php",
+		"/var/www/gym2/app/models/Paquete.php",
+		"/var/www/gym2/app/models/Permission.php",
+		"/var/www/gym2/app/models/Role.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_115004_create_users_table.php",
+		"/var/www/gym2/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php",
+		"/var/www/gym2/app/models/User.php",
+		"/var/www/gym2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/var/www/gym2/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+		"/var/www/gym2/app/controllers/PaquetesController.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_123216_create_permissions_table.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_124424_create_ejercicios_table.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_124436_create_paquetes_table.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_124450_create_rutinas_table.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_124502_create_maquinas_table.php",
+		"/var/www/gym2/app/database/migrations/2013_05_09_122521_create_roles_table.php",
+		"/var/www/gym2/app/views/admin/permissions/create.blade.php",
+		"/var/www/gym2/app/views/admin/permissions/edit.blade.php",
+		"/var/www/gym2/app/views/admin/permissions/index.blade.php",
+		"/var/www/gym2/app/controllers/PermissionsController.php",
+		"/var/www/gym2/app/views/admin/permissions/show.blade.php",
+		"/var/www/gym2/app/controllers/RoutinesController.php",
+		"/var/www/gym2/app/controllers/PackagesController.php",
+		"/var/www/gym2/app/controllers/RolesController.php",
+		"/var/www/gym2/app/views/roles/create.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"gimnasio/app/controllers, gimnasio/app/database, gimnasio/app/tests, gimnasio/app/views",
+			"gimnasio/app",
+			"laravel/app",
+			"laravel/app, laravel/vendor/laravel/src",
+			"laravel/app",
+			"app",
+			"/var/www/laravel4/app",
+			"/var/www/laravel4",
+			"/var/www/practica_profesional/wp-content/plugins/people-editor",
+			"/var/www/practica_profesional/wp-content/plugins/user-role-editor/includes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"roles",
+			"rols",
+			"getKey",
+			"Usuario",
+			"class",
+			"create",
+			"rols",
+			"Illuminate UserInterface",
+			"people",
+			"personas",
+			"$wpdb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"roles",
+			"name",
+			"people"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.artisan_output":
+	{
+		"height": 118.0
+	},
+	"output.composer":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"urlservice",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Providers/RouteListServiceProvider.php"
+			],
+			[
+				"illuminateurl",
+				"vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php"
+			],
+			[
+				"auth",
+				"vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php"
+			],
+			[
+				"facade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php"
+			],
+			[
+				"filefacade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Input.php"
+			],
+			[
+				"serviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php"
+			],
+			[
+				"db",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php"
+			],
+			[
+				"illuminateeloquent",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"",
+				"app/database/seeds/UsuariosTableSeeder.php"
+			],
+			[
+				"collection",
+				"vendor/laravel/framework/src/Illuminate/Support/Collection.php"
+			],
+			[
+				"illuminatecolle",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php"
+			],
+			[
+				"eloquent",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php"
+			],
+			[
+				"fluent",
+				"vendor/laravel/framework/src/Illuminate/Support/Fluent.php"
+			],
+			[
+				"bluepri",
+				"vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php"
+			],
+			[
+				"pivot",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Pivot.php"
+			],
+			[
+				"illuminatehtmlbui",
+				"vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php"
+			],
+			[
+				"illuminatesupportmanager",
+				"vendor/laravel/framework/src/Illuminate/Support/Manager.php"
+			],
+			[
+				"illuminatesession",
+				"vendor/laravel/framework/src/Illuminate/Session/Store.php"
+			],
+			[
+				"illuservicepr",
+				"vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php"
+			],
+			[
+				"illuminatefacadesessi",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php"
+			],
+			[
+				"illuminateresponse",
+				"vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php"
+			],
+			[
+				"userinter",
+				"vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php"
+			],
+			[
+				"guar",
+				"vendor/laravel/framework/src/Illuminate/Auth/Guard.php"
+			],
+			[
+				"illuminate/view",
+				"vendor/laravel/framework/src/Illuminate/View/View.php"
+			],
+			[
+				"illuminate/http",
+				"vendor/laravel/framework/src/Illuminate/Http/Request.php"
+			],
+			[
+				"/illuminate/auth",
+				"vendor/laravel/framework/src/Illuminate/Auth/Guard.php"
+			],
+			[
+				"formbu",
+				"vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php"
+			],
+			[
+				"arti",
+				"artisan"
+			],
+			[
+				"html",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Html.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true
+}
