@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Database\Eloquent\Collection as Collection;
+
 class UsuariosController extends BaseController {
 
     /**
@@ -123,29 +125,58 @@ class UsuariosController extends BaseController {
      */
     public function destroy($id)
     {
-        $this->usuario->find($id)->delete();
+        $this->usuario->find($id)
+            ->delete();
 
         return Redirect::route('admin.usuarios.index');
     }
 
     //Views que seran sub-views
 
-    public function showAttachableRoles($id)
+    public function showAttachableRoles($usuario_id)
     {
-        //$usuario = $this->usuario->find($id);
-        //$roles = $usuario->roles()->all();
-        // $roles->
+        $roles = $this->usuario->find($usuario_id)
+            ->detachedRoles();
+        $roles = new Collection($roles);
 
-        // Rol::all()->whereNotIn()
-
-        // var_dump($roles);
-        // return Redirect::route('admin.usuarios.showAttachableRoles',
-        //     array('usuario_id' => $id, 'roles' => $roles));
+        return View::make('usuarios.showAttachableRoles',
+            array('usuario_id' => $usuario_id, 'roles' => $roles));
     }
 
-    public function search($id)
+    public function attachRol($rol_id, $usuario_id)
     {
+        $this->usuario->find($usuario_id)
+            ->roles()->attach($rol_id);
 
+        return Redirect::route('admin.usuarios.showAttachableRoles', $usuario_id);
+    }
+
+    public function showDetachableRoles($usuario_id)
+    {
+        $roles = $this->usuario->find($usuario_id)
+            ->attachedRoles();
+        $roles = new Collection($roles);
+
+        return View::make('usuarios.showDetachableRoles',
+            array('usuario_id' => $usuario_id, 'roles' => $roles));
+    }
+
+    public function detachRol($rol_id, $usuario_id)
+    {
+        $this->usuario->find($usuario_id)
+            ->roles()->detach($rol_id);
+
+        return Redirect::route('admin.usuarios.showDetachableRoles', $usuario_id);
+    }
+
+
+    public function search()
+    {
+        $query = Input::get('query');
+        $usuarios = $this->usuario->findLike($query);
+        $usuarios = new Collection($usuarios);
+
+        return View::make('usuarios.search', compact('usuarios'));
     }
 
 }

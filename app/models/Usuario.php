@@ -18,7 +18,7 @@ class Usuario extends Eloquent implements UserInterface, RemindableInterface {
 
 	public function getAuthIdentifier()
 	{
-		return $this->getKey();
+		return $this->name;
 	}
 
 	public function getAuthPassword()
@@ -49,28 +49,52 @@ class Usuario extends Eloquent implements UserInterface, RemindableInterface {
 	 * return @array
 	 * 
 	 */
-	private function attachedRolesIds()
+	public function attachedRolesIds()
 	{
 		return DB::table('rol_usuario')
-						->where('usuario_id',$this->id)
-						->pluck('rol_id');
+						->where('usuario_id', $this->id)
+						->lists('rol_id');
 	}
 
 	/*
 	 * return @array
 	 * 
 	 */
-	private function detachedRolesIds()
+	public function attachedRolesNombres()
 	{
-    	return DB::table('rol')
-    					->whereNotIn('id', $this->attachedRolesIds());
+		return DB::table('roles')
+						->whereIn('id',$this->attachedRolesIds())
+						->lists('name');
 	}
 
+		/*
+	 * return @array
+	 * 
+	 */
+	public function attachedRoles()
+	{
+		return DB::table('roles')
+						->whereIn('id',$this->attachedRolesIds())
+						->get();
+	}
+
+	/*
+	 * return @array
+	 * 
+	 */
 	public function detachedRoles()
 	{
-    	$roles = detachedRolesIds();
-		var_dump($roles);
-		return $roles;
+    	return DB::table('roles')
+    					->whereNotIn('id', $this->attachedRolesIds())
+    					->get();
+	}
+
+	public function findLike($query)
+	{
+		$query = trim(filter_var($query, FILTER_SANITIZE_STRING));
+		return DB::table('usuarios')
+						->where('name','LIKE','%'.$query.'%')
+						->get();
 	}
 
 }

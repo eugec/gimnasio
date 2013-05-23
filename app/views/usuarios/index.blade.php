@@ -2,28 +2,34 @@
 
 @section('main')
 
-<h1>All Usuarios</h1>
+<h1>Usuarios</h1>
 
-<p>{{ link_to_route('admin.usuarios.create', 'Add new usuario') }}</p>
+<p>
+    {{ link_to_route('admin.usuarios.create', 'Add new usuario') }}
+    {{ Form::open(array(
+        'method' => 'get',
+        'route' => array('admin.usuarios.search'))) }}
+    {{ Form::text('query') }}
+        {{ Form::submit('Buscar', array('class' => 'btn btn-info')) }}
+    {{ Form::close() }}
+    {{ link_to_route('admin.usuarios.search', 'Buscar un usuario') }}
+</p>
 
 @if ($usuarios->count())
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Name</th>
+                <th>Nombre</th>
 				<th>Email</th>
-				<th>Password</th>
-				<th>Active</th>
             </tr>
         </thead>
 
         <tbody>
             @foreach ($usuarios as $usuario)
+            @if ($usuario->active)
                 <tr>
                     <td>{{ $usuario->name }}</td>
 					<td>{{ $usuario->email }}</td>
-					<td>{{ $usuario->password }}</td>
-					<td>{{ $usuario->active }}</td>
                     <td>{{ link_to_route('admin.usuarios.edit', 'Edit', array($usuario->id), array('class' => 'btn btn-info')) }}</td>
                     <td>
                         {{ Form::open(array('method' => 'DELETE', 'route' => array('admin.usuarios.destroy', $usuario->id))) }}
@@ -31,11 +37,12 @@
                         {{ Form::close() }}
                     </td>
                 </tr>
+            @endif
             @endforeach
         </tbody>
     </table>
 @else
-    There are no usuarios
+    No hay usuarios
 @endif
 
 @stop

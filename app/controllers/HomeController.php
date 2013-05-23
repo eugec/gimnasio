@@ -17,10 +17,14 @@ class HomeController extends BaseController {
 
 	public function showTest()
 	{
-		// $usuario = Usuario::find(1);
-		// var_dump($usuario->get()->toJson());
-		// $roles = $usuario->detachedRoles();
-		// var_dump($roles->get()->toJson());
+		$query = 'Ju';
+		$query = trim(filter_var($query, FILTER_SANITIZE_STRING));
+
+		var_dump($query);
+		print('-----------');
+		var_dump(DB::table('usuarios')
+						->where('name','LIKE','%'.$query.'%')
+						->get());
 	}
 
 	public function showHome()

@@ -10,7 +10,7 @@
             body { padding-top: 20px; }
         </style>
     </head>
-
+    @include('layouts.menu')
     <body>
 
         <div class="container">

@@ -22,6 +22,18 @@ class RoutesTest extends TestCase {
 		$this->assertResponseOk();
 	}
 
+	public function testLogin()
+	{
+		$this->call('GET','/login');
+		$this->assertResponseOk();
+	}
+
+	public function testLogout()
+	{
+		$this->call('GET','/login');
+		$this->assertResponseOk();
+	}
+
 	
 }
 

@@ -2,11 +2,11 @@
 
 @section('main')
 
-<h1>Edit Usuario</h1>
+<h1>Editar Usuario</h1>
 {{ Form::model($usuario, array('method' => 'PATCH', 'route' => array('admin.usuarios.update', $usuario->id))) }}
     <ul>
         <li>
-            {{ Form::label('name', 'Name:') }}
+            {{ Form::label('name', 'Nombre:') }}
             {{ Form::text('name') }}
         </li>
 
@@ -14,20 +14,22 @@
             {{ Form::label('email', 'Email:') }}
             {{ Form::text('email') }}
         </li>
-
         <li>
-            {{ Form::label('password', 'Password:') }}
-            {{ Form::text('password') }}
-        </li>
-
-        <li>
-            {{ Form::label('active', 'Active:') }}
-            {{ Form::checkbox('active') }}
-        </li>
-
-        <li>
-            {{ Form::submit('Update', array('class' => 'btn btn-info')) }}
-            {{ link_to_route('admin.usuarios.show', 'Cancel', $usuario->id, array('class' => 'btn')) }}
+            {{ Form::submit('Modificar', array('class' => 'btn btn-info')) }}
+            {{ link_to_action(
+                'UsuariosController@showAttachableRoles',
+                'Agregar Rol',
+                $usuario->id,
+                array('class' => 'btn'))}}
+            {{ link_to_action(
+                'UsuariosController@showDetachableRoles',
+                'Sacar Rol',
+                $usuario->id,
+                array('class' => 'btn'))}}
+            {{ link_to_route('admin.usuarios.show',
+                'Cancelar',
+                $usuario->id,
+                array('class' => 'btn'))}}
         </li>
     </ul>
 {{ Form::close() }}
