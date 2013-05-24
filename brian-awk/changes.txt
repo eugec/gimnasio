@@ -1,0 +1,10 @@
+ContROLler	ContROLler
+Usuarios	Ejercicios
+usuarios	ejercicios
+Usuario	Ejercicio
+usuario	ejercicio
+Roles	Maquinas
+Rol	Maquina
+roles	maquinas
+rol	maquina
+ContROLler	Controller

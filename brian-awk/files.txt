@@ -1,0 +1,4 @@
+showAttachableRoles.blade.php	showAttachableMaquinas.blade.php
+showDetachableRoles.blade.php	showDetachableMaquinas.blade.php
+search.blade.php	searchNombre.blade.php.modif
+UsuariosController.php	EjerciciosController.php

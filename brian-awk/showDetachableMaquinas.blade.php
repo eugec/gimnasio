@@ -2,14 +2,14 @@
 
 @section('main')
 
-<h1>Maquinas</h1>
+<h1>Maquinas Agregados</h1>
 
-@if (!$maquinas->isEmpty())
+@if ($maquinas->count())
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Nombre</th>
-				<th>Descripcion</th>
+                <th>Name</th>
+				<th>Description</th>
             </tr>
         </thead>
 
@@ -21,8 +21,8 @@
                     
 					<td>
                         {{ link_to_action(
-                            'EjerciciosController@attachMaquina',
-                            'Agregar',
+                            'EjerciciosContmaquinaler@detachMaquina',
+                            'Sacar',
                             array(
                             $maquina->id,
                             $ejercicio_id),

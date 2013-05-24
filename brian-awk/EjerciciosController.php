@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Collection as Collection;
 
-class EjerciciosController extends BaseController {
+class EjerciciosContmaquinaler extends BaseContmaquinaler {
 
     /**
      * Ejercicio Repository
@@ -125,10 +125,13 @@ class EjerciciosController extends BaseController {
      */
     public function destroy($id)
     {
-        $this->ejercicio->find($id)->delete();
+        $this->ejercicio->find($id)
+            ->delete();
 
         return Redirect::route('admin.ejercicios.index');
     }
+
+    //Views que seran sub-views
 
     public function showAttachableMaquinas($ejercicio_id)
     {

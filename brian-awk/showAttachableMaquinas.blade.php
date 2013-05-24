@@ -8,8 +8,8 @@
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Nombre</th>
-				<th>Descripcion</th>
+                <th>Name</th>
+				<th>Description</th>
             </tr>
         </thead>
 
@@ -21,7 +21,7 @@
                     
 					<td>
                         {{ link_to_action(
-                            'EjerciciosController@attachMaquina',
+                            'EjerciciosContmaquinaler@attachMaquina',
                             'Agregar',
                             array(
                             $maquina->id,

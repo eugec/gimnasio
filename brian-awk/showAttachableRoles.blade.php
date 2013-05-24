@@ -2,30 +2,30 @@
 
 @section('main')
 
-<h1>Maquinas</h1>
+<h1>Roles</h1>
 
-@if (!$maquinas->isEmpty())
+@if (!$roles->isEmpty())
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Nombre</th>
-				<th>Descripcion</th>
+                <th>Name</th>
+				<th>Description</th>
             </tr>
         </thead>
 
         <tbody>
-            @foreach ($maquinas as $maquina)
+            @foreach ($roles as $rol)
                 <tr>
-                    <td>{{ $maquina->name }}</td>
-					<td>{{ $maquina->description }}</td>
+                    <td>{{ $rol->name }}</td>
+					<td>{{ $rol->description }}</td>
                     
 					<td>
                         {{ link_to_action(
-                            'EjerciciosController@attachMaquina',
+                            'UsuariosController@attachRol',
                             'Agregar',
                             array(
-                            $maquina->id,
-                            $ejercicio_id),
+                            $rol->id,
+                            $usuario_id),
                             array('class' => 'btn'))
                         }}
 					</td>
@@ -34,7 +34,7 @@
         </tbody>
     </table>
 @else
-    No hay maquinas disponibles.
+    No hay roles disponibles.
 @endif
 
 @stop
